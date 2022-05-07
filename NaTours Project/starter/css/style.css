@@ -8,5 +8,51 @@ Dark green: #28b485
 */
 
 .section1{
-    background-image: url(../img/hero.jpg)
+    /* width: 1450px;
+    height: 1000px; */
+    height: 95vh;
+    background-image: linear-gradient(to left, rgba(217, 237, 146, 0.5),rgba(82, 182, 154, 0.5) ),url(../img/hero.jpg);
+    background-size: cover;
+}
+
+.outdoors{
+    font-size: 50px;
+padding: 10% 10px 0px 40%;
+letter-spacing: 10px;
+font-family: lato ;
+}
+.lifeText{
+    font-size: 30px;
+padding: 0% 0px 0px 37%;
+letter-spacing: 10px;
+animation-name: moveInLeft;
+animation-duration: 10 s;
+}
+
+.logoWhite{
+    width: 5%;
+    height: 5%;
+    padding: 40px 10px 10px 40px;
+    animation-name: moveInLeft;
+    animation-duration: 10 s;
+}
+.dot{
+height: 70px;
+width: 70px;
+background-color: white;
+/* border-radius: 50px; */
+margin: 100px 10px 10px 1350px;
+padding: 10px 10px 10px 10px;
+}
+
+@keyframes moveInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
