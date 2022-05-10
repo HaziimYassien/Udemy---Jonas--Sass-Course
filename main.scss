@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+    body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+    box-sizing: border-box;
+    }
+    .header {
+    height: 95vh;
+    background-image: linear-gradient(
+    to ríght bottom,
+    Orgba ($color-primary-light, 0.8),
+    O rgba ($color-primary-dark, 0.8)),
+    url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    clip-path: polygon (0 0, 100% 0, 100% 75vh, 0
+    }
+    .header_logo-box {
+    position: absolute;
+    top: 4геm;
+    left: 4rem:
